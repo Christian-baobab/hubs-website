@@ -1,0 +1,172 @@
+.showcase_r {
+  background-color: grey;
+  background-image: url("../Juan\ Glassford-01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 400px;
+  padding-top: 400px;
+  align-items: center;
+}
+.showcase-text_r {
+  position: absolute;
+  bottom: 3%;
+  padding: 120px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: 0, 0, 0, 0.3;
+}
+/* REASEARCH DISPLAY */
+
+.research__display {
+  margin-top: 1rem;
+  background: white;
+  padding-bottom: 40px;
+}
+.research__display h4 {
+  padding: 2rem;
+  margin-top: 0;
+  margin-left: 120px;
+  color: var(--color-primary);
+}
+
+.research__display p {
+  padding: 2rem;
+  padding-top: 0;
+  margin-top: 0;
+  margin-top: 0;
+  margin-left: 120px;
+  margin-right: 120px;
+  color: var(--color-black);
+  text-justify: auto;
+}
+
+/* REASEARCH DISPLAY media queries */
+@media screen and (max-width: 600px) {
+  .research__display h4 {
+    padding: 2rem;
+    margin-top: 0;
+    margin-left: 0;
+    color: var(--color-primary);
+  }
+
+  .research__display p {
+    padding: 2rem;
+    padding-top: 0;
+    margin-top: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    color: var(--color-black);
+    text-justify: auto;
+  }
+}
+
+.display {
+  margin-top: 0;
+  /* background: white; */
+  padding: 0%;
+}
+.display h3 {
+  padding: 2rem;
+  padding-right: 0;
+  margin-top: 0;
+  margin-left: 0;
+  text-transform: uppercase;
+}
+.display-left {
+  background: white;
+}
+
+.display-container {
+  background: grey;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  gap: 2rem;
+}
+
+.display-right p {
+  margin: 0;
+  margin-right: 1rem;
+  text-align: left;
+  padding: 2rem;
+  padding-bottom: 2rem;
+}
+.display-right a {
+  text-decoration-line: underline;
+}
+.display-right a btn-primary {
+  margin-left: 2rem;
+}
+
+.display-right a:hover {
+  color: var(--color-primary);
+}
+
+/* MEDIA QUERIES DISPLAY */
+@media screen and (max-width: 1024px) {
+  .summit h3 {
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    padding-left: 2rem;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .summit-right p {
+    padding-top: 0;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+
+/* RECENT PROJECTS */
+
+.researches {
+  margin-top: 10rem;
+  background: var(--color-white);
+}
+
+.researches h2 {
+  color: var(--color-primary);
+}
+
+.researches__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.research {
+  background: var(--color-bg1);
+  text-align: left;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.research:hover {
+  background: grey;
+  border-color: var(--color-primary);
+}
+
+.research__Info {
+  padding: 2rem;
+}
+
+.research__Info p {
+  margin: 1.2rem 0 2rem;
+  font-size: 0.9rem;
+}
+
+/* MEDIA QUERRY ON TAB */
+
+@media screen and (max-width: 1040px) {
+  .researches {
+    margin-top: 2rem;
+  }
+
+  .researches__container {
+    grid-template-columns: 1fr;
+  }
+}

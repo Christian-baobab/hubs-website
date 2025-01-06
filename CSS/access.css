@@ -1,0 +1,232 @@
+.showcase_access {
+  background-color: grey;
+  background-image: url("../about-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 400px;
+  padding-top: 400px;
+  align-items: center;
+}
+.showcase-text_access {
+  position: absolute;
+  bottom: 3%;
+  padding: 120px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: 0, 0, 0, 0.3;
+}
+
+.access__rheap {
+  margin-top: 3rem;
+  background: white;
+}
+.access__rheap h3 {
+  padding: 2rem;
+  margin-top: 0;
+  margin-left: 120px;
+  color: var(--color-primary);
+}
+
+.access__rheap-container {
+  background: grey;
+  display: grid;
+  grid-template-columns: 43% 57%;
+  gap: 2rem;
+}
+
+.access__rheap-right p {
+  margin: 0;
+  margin-right: 1rem;
+  text-align: left;
+  padding: 2rem;
+  padding-bottom: 0;
+}
+
+.access__rheaps {
+  margin-top: 0;
+  background: white;
+  padding: 0%;
+}
+.access__rheaps h3 {
+  padding: 2rem;
+  margin-top: 0;
+  margin-left: 0;
+  text-transform: uppercase;
+}
+.access__rheaps-left {
+  background: white;
+}
+
+.access__rheaps-container {
+  background: grey;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 2rem;
+}
+
+.access__rheaps-right p {
+  margin: 0;
+  margin-right: 1rem;
+  text-align: left;
+  padding: 2rem;
+  padding-bottom: 2rem;
+}
+.access__rheaps-right a {
+  text-decoration-line: underline;
+  /* color: var(--color-primary); */
+}
+
+.access__lit {
+  margin-top: 3rem;
+  background: var(--color-bg);
+}
+.access__lit h3 {
+  padding: 2rem;
+  margin-top: 0;
+  margin-left: 120px;
+}
+
+.access__lit-container {
+  background: grey;
+  display: grid;
+  grid-template-columns: 43% 57%;
+  gap: 2rem;
+  justify-content: center;
+  justify-items: center;
+}
+.access__lit-right p {
+  margin: 0;
+  margin-right: 1rem;
+  text-align: left;
+  padding: 2rem;
+  padding-bottom: 0;
+}
+
+.access__lits {
+  margin-top: 0;
+  padding: 0%;
+}
+.access__lits h3 {
+  padding: 2rem;
+  margin-top: 0;
+  margin-left: 0;
+  text-transform: uppercase;
+}
+.access__lits-left {
+  background: white;
+}
+
+.access__lits-container {
+  background: grey;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 2rem;
+}
+
+.access__lits-right p {
+  margin: 0;
+  margin-right: 1rem;
+  text-align: left;
+  padding: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* ------MEDIA QUERIES (TABLETS)--------- */
+
+@media screen and (max-width: 1024px) {
+  .access__rheap {
+    margin-top: 2rem;
+  }
+  .access__rheap-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 3rem;
+  }
+  .access__rheap-left {
+    width: 100%;
+    margin: 0 0;
+  }
+  .access__rheap h3 {
+    padding: 2rem;
+    margin-top: 0;
+    margin-left: 0;
+    color: var(--color-primary);
+  }
+  .access__rheaps-container {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 0;
+  }
+}
+
+/* ------MEDIA QUERIES (PHONES)--------- */
+
+@media screen and (max-width: 600px) {
+  .access__rheap h3 {
+    padding: 2rem;
+    margin-top: 0;
+    margin-left: 0;
+    color: var(--color-primary);
+  }
+
+  .access__rheap-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+  .access__rheap-left {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* ------MEDIA QUERIES LIT (TABLETS)--------- */
+
+@media screen and (max-width: 1024px) {
+  .access__lit {
+    margin-top: 2rem;
+  }
+  .access__lit-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 3rem;
+  }
+  .access__lit-left {
+    width: 100%;
+    margin: 0 0;
+  }
+  .access__lit h3 {
+    padding: 2rem;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .access__lits-container {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 0;
+  }
+}
+
+/* ------MEDIA QUERIES LIT(PHONES)--------- */
+
+@media screen and (max-width: 600px) {
+  .access__lit h3 {
+    padding: 2rem;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .access__lit-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+  .access__lit-left {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
