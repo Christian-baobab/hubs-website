@@ -105,14 +105,17 @@
 
 /* MEDIA QUERIES DISPLAY */
 @media screen and (max-width: 1024px) {
-  .summit h3 {
+  .display-container {
+    grid-template-columns: 1fr;
+  }
+  .display h3 {
     padding-top: 2rem;
     padding-bottom: 0rem;
     padding-left: 2rem;
     margin-top: 0;
     margin-left: 0;
   }
-  .summit-right p {
+  .display-right p {
     padding-top: 0;
     padding-bottom: 2rem;
     padding-left: 2rem;
